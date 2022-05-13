@@ -452,6 +452,7 @@
   max-width: 768px;
   margin: 60px auto;
   position: relative;
+  background-color:#048b8b;
 }
 
 form {
@@ -498,7 +499,7 @@ h1 {
 }
 
 input[type='text'], [type='email'], select, textarea {
-	background: none;
+	background:none;
   border: none;
 	border-bottom: solid 2px #ffffff;
 	color: #ffffff;
