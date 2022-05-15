@@ -8,18 +8,15 @@
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
-    <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 
 </head>
-<header> <!--الشريط اللي فوق خالص اللي بيبقي فيه ال
-categories-->
+<header> 
 
     <nav>
-      <ul> <!--بتعملهم علي شكل ليست-->
+      <ul> 
         <li><a href="index.html">home</a></li>
       </ul>
     </nav>
@@ -45,15 +42,15 @@ categories-->
       <form action="" method="POST">
         <div class="name">
           <label for="name"></label>
-          <input type="text" placeholder="Patient-Name" name="name" id="name_input" required>
+          <input type="text" placeholder="Patient-Name" name="name" id="name_input" required maxlength="50">
         </div>
         <div class="email">
           <label for="email"></label>
-          <input type="email" placeholder="E-MAIL" name="email" id="email_input" required>
+          <input type="email" placeholder="E-MAIL" name="email" id="email_input" required maxlength="20">
         </div>
         <div class="telephone">
           <label for="name"></label>
-          <input type="text" placeholder="PHONE-NUMBER" name="telephone" id="telephone_input" required>
+          <input type="text" placeholder="PHONE-NUMBER" name="telephone" id="telephone_input" required maxlength="11">
         </div>
         <div class="telephone">
             <label for="name"></label>
@@ -88,6 +85,6 @@ categories-->
         <div class="submit">
           <input type="submit" value="Send Message" id="form_button" />
         </div>
-      </form><!-- // End form -->
-    </div><!-- // End #container -->
+      </form>
+    </div>
     </section>
